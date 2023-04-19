@@ -7,6 +7,7 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        align-items: center;
     }
 
     .logo {
@@ -25,10 +26,6 @@
     }
 
     .container .info .btn-register {
-        margin-left: 25%;
-    }
-
-    .footer .social {
-        
+        margin-left: 23%;
     }
 }
