@@ -10,15 +10,16 @@
         align-items: center;
     }
 
-    .logo {
-        margin-left: 20%;
-    }
-
     .container {
         display: flex;
         flex-direction: column;
         align-content: center;
         text-align: center;
+        justify-content: center;
+    }
+
+    .container .info .btn-register {
+        margin: 0 auto;
     }
 
     .container .imagem-principal img {
@@ -26,6 +27,6 @@
     }
 
     .container .info .btn-register {
-        margin-left: 23%;
+        /* margin-left: 23%; */
     }
 }
