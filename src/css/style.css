@@ -79,6 +79,23 @@ body {
 
 .footer .social a {
     color: #fff;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social a:hover {
+    color: var(--itens);
+}
+/* .footer .social a {
+    color: #fff;
     width: 30px;
     border: 1px solid;
     border-radius: 50%;
@@ -89,4 +106,4 @@ body {
 .footer .social a:hover {
     color: var(--itens);
     transition: 0.3s ease-in-out;
-}
+} */
